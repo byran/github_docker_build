@@ -28,5 +28,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          push: true
+          push: false
           tags: docker.pkg.github.com/${{ github.repository_owner }}/build-test/build-test:latest
